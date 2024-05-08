@@ -21,3 +21,13 @@ deployment/data/certbot/conf/live/chat.grantgpt.de/privkey.pem
 deployment/data/certbot/conf/renewal/chat.grantgpt.de.conf
 deployment/data/certbot/conf/live/README
 deployment/data/certbot/conf/live/chat.grantgpt.de/README
+deployment/data/certbot/conf/archive/ask.grantgpt.eu/cert1.pem
+deployment/data/certbot/conf/archive/ask.grantgpt.eu/chain1.pem
+deployment/data/certbot/conf/archive/ask.grantgpt.eu/privkey1.pem
+deployment/data/certbot/conf/archive/ask.grantgpt.eu/fullchain1.pem
+deployment/data/certbot/conf/renewal/ask.grantgpt.eu.conf
+deployment/data/certbot/conf/live/ask.grantgpt.eu/README
+deployment/data/certbot/conf/live/ask.grantgpt.eu/privkey.pem
+deployment/data/certbot/conf/live/ask.grantgpt.eu/cert.pem
+deployment/data/certbot/conf/live/ask.grantgpt.eu/chain.pem
+deployment/data/certbot/conf/live/ask.grantgpt.eu/fullchain.pem
