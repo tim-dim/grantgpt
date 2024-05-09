@@ -37,7 +37,7 @@ export function NoSourcesModal() {
               Or, if you&apos;re looking for a pure ChatGPT-like experience
               without any organization specific knowledge, then you can head
               over to the Chat page and start chatting with GrantGPT right away!
-            </p>
+            </Text>
             <Link href="/chat">
               <Button className="mt-3" size="xs" icon={FiMessageSquare}>
                 Start Chatting!

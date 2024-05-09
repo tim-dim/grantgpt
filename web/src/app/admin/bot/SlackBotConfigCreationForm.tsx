@@ -218,7 +218,7 @@ export const SlackBotCreationForm = ({
                 />
                 <BooleanFormField
                   name="respond_tag_only"
-                  label="Respond to @DanswerBot Only"
+                  label="Respond to @GrantGPT-Bot Only"
                   subtext="If set, GrantGPT-Bot will only respond when directly tagged"
                 />
                 <BooleanFormField
@@ -259,8 +259,8 @@ export const SlackBotCreationForm = ({
                         button. For example, &apos;mark@acme.com&apos;.
                         <br />
                         Or provide a user group by either the name or the
-                        handle. For example, &apos;Danswer Team&apos; or
-                        &apos;danswer-team&apos;.
+                        handle. For example, &apos;GrantGPT Team&apos; or
+                        &apos;GrantGPT-team&apos;.
                         <br />
                         <br />
                         If no emails are provided, we will not tag anyone and

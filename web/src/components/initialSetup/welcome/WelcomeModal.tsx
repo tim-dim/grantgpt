@@ -114,7 +114,7 @@ export function _WelcomeModal({ user }: { user: User | null }) {
               Step 2: Connect Data Sources
             </Text>
             <div>
-              <p>
+              <Text>
                 Connectors are the way that GrantGPT gets data from your
                 organization&apos;s various data sources. Once setup, we&apos;ll
                 automatically sync data from your apps and docs into GrantGPT, so
@@ -239,7 +239,11 @@ export function _WelcomeModal({ user }: { user: User | null }) {
       body = (
         <>
           <div>
+<<<<<<< HEAD
             <p>How are you planning on using GrantGPT?</p>
+=======
+            <Text>How are you planning on using GrantGPT?</Text>
+>>>>>>> 08ece9473e35a29227be4a7c01573a9e9f5c356e
           </div>
           <Divider />
           <UsageTypeSection
