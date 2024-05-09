@@ -157,9 +157,9 @@ function Main() {
               To complete the initial setup, let&apos;s add a connector!
               <br />
               <br />
-              Connectors are the way that Danswer gets data from your
+              Connectors are the way that GrantGPT gets data from your
               organization&apos;s various data sources. Once setup, we&apos;ll
-              automatically sync data from your apps and docs into Danswer, so
+              automatically sync data from your apps and docs into GrantGPT, so
               you can search all through all of them in one place.
             </div>
             <div className="flex">
@@ -197,7 +197,7 @@ function Main() {
 
       <Text>
         Embedding models are used to generate embeddings for your documents,
-        which then power Danswer&apos;s search.
+        which then power GrantGPT&apos;s search.
       </Text>
 
       {currentModel ? (
