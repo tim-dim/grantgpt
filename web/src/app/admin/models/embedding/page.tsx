@@ -277,9 +277,9 @@ function Main() {
               </a>
               .
               <br />
-              <b>NOTE:</b> not all models listed will work with Danswer, since
+              <b>NOTE:</b> not all models listed will work with GrantGPT, since
               some have unique interfaces or special requirements. If in doubt,
-              reach out to the Danswer team.
+              reach out to the GrantGPT team.
             </Text>
 
             <div className="w-full flex">

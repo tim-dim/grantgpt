@@ -148,7 +148,27 @@ export function _WelcomeModal({ user }: { user: User | null }) {
           <BackButton behaviorOverride={() => setSelectedFlow(null)} />
 
           <div className="mt-3">
-            <Text className="font-bold flex">
+            <div>
+              To start using GrantGPT as a secure ChatGPT, we just need to
+              configure our LLM!
+              <br />
+              <br />
+              GrantGPT supports connections with a wide range of LLMs, including
+              self-hosted open-source LLMs. For more details, check out the{" "}
+              <a
+                className="text-link"
+                href="https://docs.danswer.dev/gen_ai_configs/overview"
+              >
+                documentation
+              </a>
+              .
+              <br />
+              <br />
+              If you haven&apos;t done anything special with the Gen AI configs,
+              then we default to use OpenAI.
+            </div>
+
+            <Text className="font-bold mt-6 mb-2 flex">
               {apiKeyVerified && (
                 <FiCheckCircle className="my-auto mr-2 text-success" />
               )}
@@ -219,7 +239,11 @@ export function _WelcomeModal({ user }: { user: User | null }) {
       body = (
         <>
           <div>
+<<<<<<< HEAD
+            <p>How are you planning on using GrantGPT?</p>
+=======
             <Text>How are you planning on using GrantGPT?</Text>
+>>>>>>> 08ece9473e35a29227be4a7c01573a9e9f5c356e
           </div>
           <Divider />
           <UsageTypeSection

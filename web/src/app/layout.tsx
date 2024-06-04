@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "GrantGPT",
-  description: "Question answering for your documents",
+  description: "AI powered research tool for EU Grants",
 };
 
 export const dynamic = "force-dynamic";
