@@ -22,8 +22,10 @@
     /* neutral-700, solid - Very dark gray */
     --text-800: #262626;
     /* neutral-800, solidDark - Nearly black */
-    --text-900: #111827;
-    /* neutral-900 - Very dark, almost black */
+    --text-900: #001489;
+    /* neutral-900 - eu blue */
+        /* neutral-900 -  old: #111827 Very dark, almost black */
+
     --text-950: #0a0a0a;
     /* solidDark - Nearly pure black */
 
